@@ -34,10 +34,10 @@ A DataFrame library for Go with multi-format support.
 
 omniframe provides a pandas/Polars-inspired DataFrame implementation for Go, with a focus on:
 
-- **Multi-format export**: XLSX, CSV, JSON, Parquet, Arrow (planned)
-- **Columnar storage**: Efficient memory layout for analytics
-- **Type-safe columns**: Strong typing with automatic inference
-- **Expression system**: Polars-inspired operations (planned)
+- 📊 **Multi-format export**: XLSX, CSV, JSON, Parquet, Arrow (planned)
+- 🗂️ **Columnar storage**: Efficient memory layout for analytics
+- 🔒 **Type-safe columns**: Strong typing with automatic inference
+- ⚡ **Expression system**: Polars-inspired operations (planned)
 
 ## Installation
 
