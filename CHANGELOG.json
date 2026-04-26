@@ -1,0 +1,39 @@
+{
+  "irVersion": "1.0",
+  "project": "omniframe",
+  "repository": "https://github.com/plexusone/omniframe",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-04-26",
+      "commit": "b3c8cad",
+      "highlights": [
+        { "description": "DataFrame library for Go with XLSX export support" }
+      ],
+      "added": [
+        { "description": "Core `Frame` type for tabular data with named columns", "commit": "0c2cfa4" },
+        { "description": "Core `Column` type with automatic type inference (string, int64, float64, bool, time)", "commit": "0c2cfa4" },
+        { "description": "`FrameSet` type for multi-sheet workbook support", "commit": "0c2cfa4" },
+        { "description": "`FromColumns()` and `FromRows()` constructors for creating frames", "commit": "0c2cfa4" },
+        { "description": "Frame operations: `Head()`, `Tail()`, `Select()`, `Clone()`", "commit": "0c2cfa4" },
+        { "description": "Column formatting with Excel number formats (currency, percent, date, etc.)", "commit": "0c2cfa4" },
+        { "description": "XLSX export via `WriteXLSX()` for Frame and FrameSet", "commit": "df0fd79" },
+        { "description": "Column width support for Excel output", "commit": "df0fd79" }
+      ],
+      "tests": [
+        { "description": "XLSX export tests for single frame and multi-sheet workbooks", "commit": "4a7750c" }
+      ],
+      "documentation": [
+        { "description": "README with installation, quick start, and API overview", "commit": "ad2bce9" },
+        { "description": "PRD with product requirements and 6-phase roadmap", "commit": "ad2bce9" }
+      ],
+      "build": [
+        { "description": "Initial Go module setup with excelize dependency", "commit": "763cc28" },
+        { "description": "Add MIT license", "commit": "f35c8f4" },
+        { "description": "Add GitHub Actions CI workflows", "commit": "b3c8cad" }
+      ]
+    }
+  ]
+}
